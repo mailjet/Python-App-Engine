@@ -1,11 +1,7 @@
-## Python Flask Skeleton for Google App Engine
+## Python Mailjet/Flask HelloWorld on Google App Engine
 
 A skeleton for building Python applications on Google App Engine with the
-[Flask micro framework](http://flask.pocoo.org).
-
-See our other [Google Cloud Platform github
-repos](https://github.com/GoogleCloudPlatform) for sample applications and
-scaffolding for other python frameworks and use cases.
+[Flask micro framework](http://flask.pocoo.org) and the [Mailjet API](http://dev.mailjet.com).
 
 ## Run Locally
 1. Install the [App Engine Python SDK](https://developers.google.com/appengine/downloads).
@@ -14,7 +10,7 @@ See the README file for directions. You'll need python 2.7 and [pip 1.4 or later
 2. Clone this repo with
 
    ```
-   git clone https://github.com/GoogleCloudPlatform/appengine-python-flask-skeleton.git
+   git clone https://github.com/GuillaumeBadi/Python-App-Engine.git
    ```
 3. Install dependencies in the project's lib directory.
    Note: App Engine can only import libraries from inside your project directory.
@@ -30,9 +26,7 @@ See the README file for directions. You'll need python 2.7 and [pip 1.4 or later
    ```
 
 Visit the application [http://localhost:8080](http://localhost:8080)
-
-See [the development server documentation](https://developers.google.com/appengine/docs/python/tools/devserver)
-for options when running dev_appserver.
+Got to [/send](http://localhost:8080/send)
 
 ## Deploy
 To deploy the application:
@@ -43,37 +37,13 @@ To deploy the application:
    application](https://developers.google.com/appengine/docs/python/tools/uploadinganapp) with
 
    ```
-   appcfg.py -A <your-project-id> --oauth2 update .
+   appcfg.py -A second-core-93420 update app.yaml
    ```
-1. Congratulations!  Your application is now live at your-app-id.appspot.com
-
-## Next Steps
-This skeleton includes `TODO` markers to help you find basic areas you will want
-to customize.
-
-### Relational Databases and Datastore
-To add persistence to your models, use
-[NDB](https://developers.google.com/appengine/docs/python/ndb/) for
-scale.  Consider
-[CloudSQL](https://developers.google.com/appengine/docs/python/cloud-sql)
-if you need a relational database.
-
-### Installing Libraries
-See the [Third party
-libraries](https://developers.google.com/appengine/docs/python/tools/libraries27)
-page for libraries that are already included in the SDK.  To include SDK
-libraries, add them in your app.yaml file. Other than libraries included in
-the SDK, only pure python libraries may be added to an App Engine project.
+1. Congratulations!  Your application is now live at http://second-core-93420.appspot.com/
 
 ### Feedback
 Star this repo if you found it useful. Use the github issue tracker to give
 feedback on this repo.
 
-## Contributing changes
-See [CONTRIB.md](CONTRIB.md)
-
-## Licensing
-See [LICENSE](LICENSE)
-
 ## Author
-Logan Henriquez and Johan Euphrosine
+Guillaume Badi
