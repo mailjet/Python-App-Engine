@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: mailjet-rest
+Version: v1.0.3
+Summary: Mailjet V3 API wrapper
+Home-page: https://github.com/mailjet/mailjet-apiv3-python
+Author: Guillaume Badi
+Author-email: gbadi@mailjet.com
+License: GPLv3
+Download-URL: https://github.com/mailjet/mailjet-apiv3-python/tarball/v1.0.3
+Description: UNKNOWN
+Keywords: mailjet api wrapper email client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities

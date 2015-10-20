@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+mailjet_rest/__init__.py
+mailjet_rest/client.py
+mailjet_rest.egg-info/PKG-INFO
+mailjet_rest.egg-info/SOURCES.txt
+mailjet_rest.egg-info/dependency_links.txt
+mailjet_rest.egg-info/pbr.json
+mailjet_rest.egg-info/requires.txt
+mailjet_rest.egg-info/top_level.txt
